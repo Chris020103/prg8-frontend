@@ -6,8 +6,6 @@ function App() {
     const [messages, setMessages] = useState([]);
     const [loading, setLoading] = useState(false);
     const [licensePlate, setLicensePlate] = useState(false);
-
-
     const handleSubmit = async (e) => {
         e.preventDefault();
         if(messages.length === 0){
